@@ -1,0 +1,41 @@
+<!-- Latihan Week 5 (code HTML)-->
+<!-- Pradhita Pameswari | 105222044 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Pegawai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Form Data Pegawai</h2>
+        <form id="employeeForm">
+            <div class="form-group">
+                <label for="name">Nama Pegawai</label>
+                <input type="text" id="name" name="name">
+                <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+                <label for="position">Jabatan</label>
+                <input type="text"id="position" name="position">
+                <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+                <label for="phone">No.Telepon</label>
+                <input type="tel" id="phone" name="phone">
+                <small class="error-message"></small>
+            </div>
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
